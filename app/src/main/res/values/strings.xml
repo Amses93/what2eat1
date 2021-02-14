@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application what2eat</string>
+    <string name="generate">GENERATE</string>
+    <string name="add">ADD</string>
+    <string name="pizza">Pizza!</string>
+    <string name="food_list">FOOD LIST</string>
+</resources>
