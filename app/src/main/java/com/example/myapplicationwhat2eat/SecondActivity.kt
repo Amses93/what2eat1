@@ -2,15 +2,22 @@ package com.example.myapplicationwhat2eat
 
 import android.app.Activity
 import android.app.Dialog
+import android.media.Image
 import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.PopupWindow
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class SecondActivity : AppCompatActivity() {
+
+
+    var Adapter = MyAdapter()
+
     internal lateinit var addfoodBtn : Button
     internal lateinit var myDialog : Dialog
     internal lateinit var dismisspopupBtn : ImageButton
@@ -19,6 +26,9 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
+        var tableview = findViewById<RecyclerView>(R.id.foodlistRecyclerview)
+        tableview.layoutManager = LinearLayoutManager(this)
+        tableview.adapter = Adapter
 
 
         val addfoodBtn =findViewById<FloatingActionButton>(R.id.addfoodBtn)
@@ -66,6 +76,7 @@ class SecondActivity : AppCompatActivity() {
 
 
     }
+
 }
 
 
