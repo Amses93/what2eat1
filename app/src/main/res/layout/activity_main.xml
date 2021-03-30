@@ -12,10 +12,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:fontFamily="@font/wendy_one"
-        android:text="Food choice is...?"
+        android:text="Press GENERATE and let us decide what2eat!"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#FFAD71"
-        android:textSize="40sp"
+        android:textSize="36sp"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -40,14 +41,14 @@
         android:id="@+id/addBtn"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="170dp"
         android:backgroundTint="#FFAD71"
         android:fontFamily="@font/wendy_one"
         android:text="@string/add"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/generateBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/foodimageView" />
 
     <ImageView
         android:id="@+id/foodimageView"
@@ -58,8 +59,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/foodtextView"
-        app:srcCompat="@drawable/pizza"
-        tools:srcCompat="@drawable/pizza" />
+        app:srcCompat="@drawable/fork"
+        tools:srcCompat="@drawable/fork" />
 
     <TextView
         android:id="@+id/foodtextView"
@@ -68,7 +69,6 @@
         android:layout_marginTop="140dp"
         android:layout_marginBottom="60dp"
         android:fontFamily="@font/wendy_one"
-        android:text="aaa"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#FFAD71"
         android:textSize="55sp"
@@ -99,4 +99,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="
+        #BF5D30"
+        android:fontFamily="@font/wendy_one"
+        android:text="Reset"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodimageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

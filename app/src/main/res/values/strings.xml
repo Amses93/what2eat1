@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application what2eat</string>
+    <string name="app_name">what2eat</string>
     <string name="generate">GENERATE</string>
     <string name="add">ADD</string>
     <string name="pizza">Pizza!</string>

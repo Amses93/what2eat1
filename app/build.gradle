@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.myapplicationwhat2eat"
+        applicationId "se.amelcuric.what2eat"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

@@ -20,7 +20,7 @@
     <TextView
         android:id="@+id/rvTxtview"
         android:layout_width="wrap_content"
-        android:layout_height="37dp"
+        android:layout_height="42dp"
         android:fontFamily="@font/wendy_one"
         android:text="PIZZA"
         android:textColor="#FFAD71"
