@@ -1,4 +1,4 @@
-package com.example.myapplicationwhat2eat
+package com.example.whattoeat
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

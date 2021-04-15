@@ -8,10 +8,10 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "se.amelcuric.what2eat"
+        applicationId "se.amelcuric.whattoeat"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 3
+        versionCode 7
         versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -21,7 +21,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            debuggable true
+            debuggable false
         }
     }
     compileOptions {

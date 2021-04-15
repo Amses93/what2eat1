@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplicationwhat2eat">
-
-
-
-
-
-
-
+    package="com.example.whattoeat">
 
 
     <application
@@ -18,12 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationWhat2eat">
         <activity
-            android:name=".foodpopupActivity"
+            android:name="com.example.whattoeat.foodpopupActivity"
             android:label="@string/title_activity_foodpopup"></activity>
 
 
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.whattoeat.SecondActivity" />
+        <activity android:name="com.example.whattoeat.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

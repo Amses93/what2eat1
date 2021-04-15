@@ -1,6 +1,4 @@
-package com.example.myapplicationwhat2eat
-
-import android.media.Image
+package com.example.whattoeat
 
 data class Food(val name: String, val image: String)
 
